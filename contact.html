@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kontakt</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta|Titillium+Web" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Kontakt</h1>
+      <nav>
+        <ul class="nobutton">
+          <li><a href="index.html">Start</a></li>
+          <li><a href="about.html">Om mig</a></li>
+          <li><a href="movies.html">Favoritfilmer</a></li>
+          <li><a href="links.html">Länkar</a></li>
+          <li id="currentpage"><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>Kontakta oss via nedanstående formulär</p>
+      <form action="" method="get">
+        <p><label for="namn">Namn:</label> <input type="text" name="namn" id="namn" placeholder="namn" required></p>
+        <p><label for="email">E-mail:</label> <input type="email" name="email" id="email" placeholder="e-mail" required></p>
+        <p><label for="subject">Vad gäller ditt ärende?</label>
+          <select name="subject">
+            <option id="subject">Teknikstrul</option>
+            <option id="subject">Helvetiskt teknikstrul</option>
+            <option id="subject">Jag vill bara tala om att jag är nöjd</option>
+          </select>
+        </p>
+        <p><label for="message">Beskriv ditt ärende.</label></p>
+          <textarea id="message" required></textarea>
+      </form>
+    </main>
+    <footer>
+      <p>Storgatan 1, 24400 Kävlinge</p>
+      <p>Tfn 046-73 10 00</p>
+      <p>thecompany@hotmail.com</p>
+    </footer>
+  </body>
+</html>
